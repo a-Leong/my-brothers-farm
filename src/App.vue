@@ -8,20 +8,29 @@
       <section>
         <p>For meat products, contact <strong>Grateful Bison</strong></p>
 
-        <div class="contact-list">
-          <a href="https://www.instagram.com/gratefulbison/" class="img-link">
-            <img
-              class="icon"
-              src="./assets/instagram-logo.png"
-              alt="Instagram logo"
-            />
-            @gratefulbison
-          </a>
+        <div class="contact-container">
+          <div class="contact-list start">
+            <a
+              href="https://www.instagram.com/gratefulbison/"
+              class="img-link row"
+            >
+              <img
+                class="icon"
+                src="./assets/instagram-logo.png"
+                alt="Instagram logo"
+              />
+              @gratefulbison
+            </a>
 
-          <a href="mailto:gratefulbison@proton.me" class="img-link">
-            <img class="icon" src="./assets/email-icon.png" alt="Email icon" />
-            gratefulbison@proton.me
-          </a>
+            <a href="mailto:gratefulbison@proton.me" class="img-link row">
+              <img
+                class="icon"
+                src="./assets/email-icon.png"
+                alt="Email icon"
+              />
+              gratefulbison@proton.me
+            </a>
+          </div>
         </div>
       </section>
 
@@ -59,6 +68,14 @@ h1 {
   text-decoration: none;
 }
 
+.img-link.row {
+  flex-direction: row;
+}
+
+.img-link:hover {
+  text-decoration: underline;
+}
+
 .sections {
   display: flex;
   flex-direction: column;
@@ -78,8 +95,17 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-top: 1rem;
+}
+
+.contact-list.start {
+  align-items: flex-start;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
 }
 
 .icon {
@@ -93,7 +119,7 @@ h1 {
   height: auto;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 740px) {
   .sections {
     flex-direction: row;
     gap: 2rem;
