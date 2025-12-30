@@ -17,6 +17,11 @@
             />
             @gratefulbison
           </a>
+
+          <a href="mailto:gratefulbison@proton.me" class="img-link">
+            <img class="icon" src="./assets/email-icon.png" alt="Email icon" />
+            gratefulbison@proton.me
+          </a>
         </div>
       </section>
 
@@ -84,7 +89,7 @@ h1 {
 }
 
 .logo {
-  width: min(80vw, 300px);
+  width: min(80vw, 350px);
   height: auto;
 }
 
