@@ -1,1 +1,9 @@
-/* / 301!
+# Redirect www to apex
+https://www.mybrothersfarm.com/* https://mybrothersfarm.com/:splat 301!
+
+# Redirect all old subdomains to apex
+https://*.mybrothersfarm.com/* https://mybrothersfarm.com/:splat 301!
+
+# Serve your landing page for all paths (Vue history mode friendly)
+# This ensures /shop, /old-page, etc. all load the landing page
+/* /index.html 200
