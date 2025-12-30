@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "https://*.mybrothersfarm.com/*"
-  to = "https://mybrothersfarm.com/"
-  status = 301
-  force = true
