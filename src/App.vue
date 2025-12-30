@@ -83,13 +83,13 @@ h1 {
 }
 
 .icon {
-  width: clamp(56px, 12vw, 75px);
+  width: clamp(56px, 12vw, 64px);
   height: auto;
   aspect-ratio: 1 / 1;
 }
 
 .logo {
-  width: min(80vw, 350px);
+  width: min(80vw, 352px);
   height: auto;
 }
 
