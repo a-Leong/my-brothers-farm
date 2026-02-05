@@ -7,30 +7,15 @@
     <div class="sections">
       <section>
         <p>For meat products, contact <strong>Grateful Bison</strong></p>
-
-        <div class="contact-container">
-          <div class="contact-list start">
-            <a
-              href="https://www.instagram.com/gratefulbison/"
-              class="img-link row"
-            >
-              <img
-                class="icon"
-                src="./assets/instagram-logo.png"
-                alt="Instagram logo"
-              />
-              @gratefulbison
-            </a>
-
-            <a href="mailto:gratefulbison@proton.me" class="img-link row">
-              <img
-                class="icon"
-                src="./assets/email-icon.png"
-                alt="Email icon"
-              />
-              gratefulbison@proton.me
-            </a>
-          </div>
+        <div class="contact-list">
+          <a href="https://gratefulbison.com/" class="img-link">
+            <img
+              class="logo"
+              src="./assets/gratefulbison-logo.svg"
+              alt="Grateful Bison logo"
+            />
+            GratefulBison.com
+          </a>
         </div>
       </section>
 
@@ -39,7 +24,7 @@
       <section>
         <p>For tree products, contact <strong>Farmhands Co-op</strong></p>
         <div class="contact-list">
-          <a href="https://farmhandscoop.com" class="img-link">
+          <a href="https://farmhandscoop.com/" class="img-link">
             <img
               class="logo"
               src="./assets/farmhands-logo.png"
@@ -115,8 +100,8 @@ h1 {
 }
 
 .logo {
-  width: min(80vw, 352px);
-  height: auto;
+  max-width: min(80vw, 352px);
+  max-height: min(100vw, 175px);
 }
 
 @media (min-width: 740px) {
